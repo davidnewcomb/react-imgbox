@@ -31,7 +31,7 @@ then
 fi
 export VERSION="$ANSWER"
 
-./build.sh
+./build/build.sh
 
 echo "Update package"
 sed 's/"version": ".*"/"version": "'"$VERSION"'"/' package.json > $T/package.json
@@ -46,12 +46,13 @@ then
 
 	echo "Tagging code"
 	git tag "v$VERSION"
+	git push --tag
 
 	echo "Moving latest"
 	git tag -f latest
+	git push -f --tag
 
 	echo "Pushing..."
-	git push --tag
 fi
 
 question "Publish to NPM"
