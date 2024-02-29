@@ -28,7 +28,7 @@ Then goto [http://localhost:3000/]
 
 ImgBox uses coordinates bases on the real size of the `src` image to draw a box over the same area no matter the size of the picture. There is an edit option for you to draw the box yourself and save the coordinates for latter.
 
-See the [demo page](https://cdn.bigsoft.co.uk/projects/react-imgbox/) for examples.
+See the [demo page](https://www.bigsoft.co.uk/projects/react-imgbox/) for examples.
 
 This plugin can be used as a drop in replacement for &lt;img&gt; tag and will behave similarly.
 
