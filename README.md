@@ -2,9 +2,31 @@
 
 React component that draws a styled box over an image; react version of [jquery-imgbox](https://github.com/davidnewcomb/jquery-imgbox).
 
+## Project parts
+
+This repo contains 2 projects:
+
+1. imgbox - NPM module
+2. NextJs - Demo application
+
+### Build and run locally
+
+```bash
+cd imgbox
+yarn install
+yarn run build
+yarn link
+cd ../next-app
+yarn install
+yarn link react-imgbox
+yarn run dev
+```
+
+Then goto [http://localhost:3000/]
+
 ## Overview
 
-ImbBox uses coordinates bases on the real size of the `src` image to draw a box over the same area no matter the size of the picture. There is an edit option for you to draw the box yourself and save the coordinates for latter.
+ImgBox uses coordinates bases on the real size of the `src` image to draw a box over the same area no matter the size of the picture. There is an edit option for you to draw the box yourself and save the coordinates for latter.
 
 See the [demo page](https://cdn.bigsoft.co.uk/projects/react-imgbox/) for examples.
 
