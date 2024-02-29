@@ -8,7 +8,7 @@ const propTypes = {
     className: PropTypes.string,
     src: PropTypes.string,
     alt: PropTypes.string,
-    
+
     onClick: PropTypes.func,
     onMouseMove: PropTypes.func,
 

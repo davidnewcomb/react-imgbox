@@ -1,6 +1,6 @@
 {
 	"name": "react-imgbox",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A ReactJs plugin that draws a box over an image (from the makers of jquery-imgbox).",
 	"main": "dist/react-imgbox.babel.min.js",
 	"scripts": {
