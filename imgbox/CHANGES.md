@@ -2,7 +2,11 @@
 
 ## 1.0.2
 
-`uglify-js` did not add `use client` to minified/mangled version.
+* `uglify-js` did not add `use client` to minified/mangled version.
+* Fix release
+* Move `babel-plugin-transform-next-use-client` to devDeps
+* Tidy up example code
+* Add CHANGE log
 
 ## 1.0.1
 
