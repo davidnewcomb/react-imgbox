@@ -1,6 +1,6 @@
 {
 	"name": "react-imgbox",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "A ReactJs plugin that draws a box over an image (from the makers of jquery-imgbox).",
 	"main": "dist/react-imgbox.babel.min.js",
 	"scripts": {
@@ -27,9 +27,6 @@
 		"url": "https://github.com/davidnewcomb/react-imgbox/issues"
 	},
 	"homepage": "https://github.com/davidnewcomb/react-imgbox#readme",
-	"dependencies": {
-		"babel-plugin-transform-next-use-client": "^1.1.1"
-	},
 	"peerDependencies": {
 		"react": "^18"
 	},
@@ -38,6 +35,7 @@
 		"@babel/core": "^7.23.2",
 		"@babel/preset-env": "^7.23.2",
 		"@babel/preset-react": "^7.22.15",
+		"babel-plugin-transform-next-use-client": "^1.1.1",
 		"eslint": "^8",
 		"eslint-plugin-react": "^7.33.2",
 		"react": "^18",
