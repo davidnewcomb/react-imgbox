@@ -1,0 +1,46 @@
+{
+	"name": "react-imgbox",
+	"version": "1.0.0",
+	"description": "A ReactJs plugin that draws a box over an image (from the makers of jquery-imgbox).",
+	"main": "dist/react-imgbox.babel.min.js",
+	"scripts": {
+		"lint": "./node_modules/.bin/eslint src/react-imgbox.js",
+		"build": "./build/build.sh",
+		"release": "./build/release.sh",
+		"env": "env",
+		"test": "echo \"Error: no test specified\" && exit 0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/davidnewcomb/react-imgbox.git"
+	},
+	"keywords": [
+		"reactjs",
+		"image",
+		"mark",
+		"box",
+		"imgbox"
+	],
+	"author": "David Newcomb <david.newcomb@bigsoft.co.uk> (https://www.bigsoft.co.uk)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/davidnewcomb/react-imgbox/issues"
+	},
+	"homepage": "https://github.com/davidnewcomb/react-imgbox#readme",
+	"dependencies": {
+		"babel-plugin-transform-next-use-client": "^1.1.1"
+	},
+	"peerDependencies": {
+		"react": "^18"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.23.0",
+		"@babel/core": "^7.23.2",
+		"@babel/preset-env": "^7.23.2",
+		"@babel/preset-react": "^7.22.15",
+		"eslint": "^8",
+		"eslint-plugin-react": "^7.33.2",
+		"react": "^18",
+		"uglify-js": "^3.17.4"
+	}
+}
