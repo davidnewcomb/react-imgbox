@@ -18,7 +18,8 @@ const saveMyCoords = (coords) => {
 }
 `
 
-const e5Style = `.jack_pub_style {
+const e5Style = `
+.jack_pub_style {
   background-color: black;
   opacity: 0.4;
   border: 4px solid yellow;
